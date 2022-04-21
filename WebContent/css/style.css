@@ -2,24 +2,28 @@
 
 header{
 	position:fixed;
-	height:100px;
+	height:150px;
 	width:100%;
 	display:flex;
 	align-items:center;
+	background-color:black;
+	color:white;
+	z-index:9;
 }
 
 h1{
 	display:block;
 	position:absolute;
-	top:10%;
-	left:10%;
+
+	left:5%;
 	letter-spacing:0.2em;
+	font-size:80px;
 }
 
 ul{
 	position:relative;
-	top:9%;
-	left:20%;
+	top:8%;
+	left:35%;
 	display:flex;
 	list-style:none;
 	letter-spacing:0.1em;
@@ -40,22 +44,32 @@ li{
 #container{
 	position:relative;
 	width:100%;
-	height:100vh;
+	height:200vh;
 }
 
 main{
 	position:relative;
-	width:100%;
+	width:90%;
 	height:100vh;
+	margin:0 auto;
 }
 
 section{
 	display:flex;
-	padding:0 0 100px 0;
+	width:90%;
+	margin:50px auto 100px;
+	justify-content:space-between;
+	align-items:center;
 }
 
-footer{
-	height:100px;
-	width:100%;
-	position:relative;
+img{
+	width:40%;
+	min-height:600px;
+}
+
+#img{
+	width:40%;
+	min-height:500px;
+	background-image:url("../img/hyogo.jpg");
+	background-size:cover;
 }
