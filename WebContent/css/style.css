@@ -17,6 +17,11 @@ h1{
 	left:5%;
 	font-size:80px;
 	letter-spacing:0.1em;
+	font-family: 'Fugaz One', cursive;
+}
+
+h2{
+	font-family: 'Fugaz One', cursive;
 }
 
 ul{
@@ -31,12 +36,12 @@ ul{
 
 li{
 	margin:0 30px;
-
 }
 
 a{
 	text-decoration:none;
 	color:white;
+	font-family: 'Fugaz One', cursive;
 }
 
 #space{
@@ -73,5 +78,9 @@ img{
 
 .contents{
 	width:40%;
+	white-space:nowrap;
+}
 
+.contents a{
+	color:black;
 }
