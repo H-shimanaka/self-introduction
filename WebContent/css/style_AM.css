@@ -73,5 +73,6 @@ img{
 
 .contents{
 	width:40%;
+	white-space:nowrap;
 
 }
