@@ -1,4 +1,5 @@
 
+
 $('#page-link a[href*="#"]').click(function(){
 	var elmHash = $(this).attr('href');
 	var pos = $(elmHash).offset().top-150;
